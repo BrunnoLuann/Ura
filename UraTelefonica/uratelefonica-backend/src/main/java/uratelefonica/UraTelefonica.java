@@ -1,15 +1,19 @@
+package uratelefonica;
+
 import com.twilio.Twilio;
 import com.twilio.twiml.VoiceResponse;
 import com.twilio.twiml.voice.Gather;
 import com.twilio.twiml.voice.Redirect;
 import com.twilio.twiml.voice.Say;
 
+import main.java.uratelefonica.CallHandler;
+
 public class UraTelefonica {
     // Credenciais da conta Twilio
-    private static final String ACCOUNT_SID = "sua_account_sid";
-    private static final String AUTH_TOKEN = "seu_auth_token";
+    private static final String ACCOUNT_SID = "account_sid";
+    private static final String AUTH_TOKEN = "auth_token";
     // Número do telefone configurado no Twilio
-    private static final String TWILIO_PHONE_NUMBER = "seu_numero_telefone";
+    private static final String TWILIO_PHONE_NUMBER = "numero_telefone";
 
     public static void main(String[] args) {
         // Configuração da conta Twilio
@@ -17,7 +21,11 @@ public class UraTelefonica {
 
         // Iniciar a chamada
         CallHandler.handleIncomingCall();
+
+        System.out.println(xmlResponse);
     }
+
+}
 
     // Método para criar a resposta XML para redirecionamento
     public static String createRedirectResponse() {

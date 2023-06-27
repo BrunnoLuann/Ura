@@ -26,16 +26,16 @@
   </parent>
         
   
-  <groupId>com.example</groupId>
+  <groupId>uratelefonica</groupId>
         
   
-  <artifactId>demo</artifactId>
+  <artifactId>uratelefonica</artifactId>
         
   
-  <version>1.0-SNAPSHOT</version>
+  <version>Ura</version>
         
   
-  <name>demo</name>
+  <name>uratelefonica</name>
         
   
   <description>Blank multi project for Spring Boot + Elm</description>
@@ -50,13 +50,13 @@
       <dependency>
                                 
         
-        <groupId>com.example</groupId>
+        <groupId>uratelefonica</groupId>
                                 
         
-        <artifactId>demo-frontend</artifactId>
+        <artifactId>uratelefonica-frontend</artifactId>
                                 
         
-        <version>1.0-SNAPSHOT</version>
+        <version>Ura</version>
                             
       
       </dependency>
@@ -65,13 +65,13 @@
       <dependency>
                                 
         
-        <groupId>com.example</groupId>
+        <groupId>uratelefonica</groupId>
                                 
         
-        <artifactId>demo-backend</artifactId>
+        <artifactId>uratelefonica-backend</artifactId>
                                 
         
-        <version>1.0-SNAPSHOT</version>
+        <version>Ura</version>
                             
       
       </dependency>
@@ -166,10 +166,10 @@
   <modules>
           
     
-    <module>demo-frontend</module>
+    <module>uratelefonica-frontend</module>
           
     
-    <module>demo-backend</module>
+    <module>uratelefonica-backend</module>
       
   </modules>
   

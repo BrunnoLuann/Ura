@@ -1,6 +1,6 @@
 applications:
-- name: demo
-  path: demo-backend/target/demo-backend-1.0-SNAPSHOT.jar
+- name: uratelefonica
+  path: uratelefonica-backend/target/uratelefonica-backend-Ura.jar
   memory: 256m
   env:
     JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'

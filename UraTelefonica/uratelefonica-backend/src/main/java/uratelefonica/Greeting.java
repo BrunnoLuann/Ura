@@ -1,4 +1,4 @@
-package com.example;
+package uratelefonica;
 
 public class Greeting {
 

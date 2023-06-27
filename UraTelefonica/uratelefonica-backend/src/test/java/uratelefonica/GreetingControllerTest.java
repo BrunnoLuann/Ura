@@ -1,4 +1,4 @@
-package com.example;
+package uratelefonica;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
